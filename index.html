@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task Dashboard</title>
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <h1 class="brand">Sundays.</h1>
+      <nav class="menu">
+        <ul>
+          <li class="active"><span class="icon">🏠</span> Dashboard</li>
+          <li><span class="icon">📋</span> My Task</li>
+          <li><span class="icon">🍽️</span> Meal Planner</li>
+          <li><span class="icon">📄</span> Documents</li>
+          <li><span class="icon">🧾</span> Receipts</li>
+          <li><span class="icon">💬</span> Chats <span class="badge">3</span></li>
+        </ul>
+      </nav>
+      <div class="upgrade-plan">
+        <p class="title">Upgrade your plan</p>
+        <p class="subtitle">Your trial plan ends in 12 days. Upgrade your plan to unlock full potential!</p>
+        <button>See Plans</button>
+      </div>
+      <div class="settings">
+        <button>⚙️ Settings</button>
+        <button>❓ Help & Support</button>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Header Section -->
+      <header>
+        <h2 class="section-title">My Task</h2>
+        <div class="search-bar">
+          <input type="text" placeholder="Search or type a command">
+          <button>🔍</button>
+        </div>
+        <div class="user-profile">
+          <span class="temperature">36°F</span>
+          <img src="https://via.placeholder.com/45" alt="User Avatar">
+        </div>
+      </header>
+
+      <!-- Recommended Categories -->
+      <section class="categories">
+        <h3>Recommended Categories</h3>
+        <div class="category-grid">
+          <button>🏠 Home Help</button>
+          <button>📅 Plan an event</button>
+          <button>📦 Return a package</button>
+          <button>🎁 Send a gift</button>
+          <button>📞 Schedule an appointment</button>
+          <button>📃 Get a passport</button>
+          <button>🏃‍♂️ Find a kids activity</button>
+          <button>✈️ Plan a trip</button>
+        </div>
+      </section>
+
+      <!-- Task Filter and Actions -->
+      <div class="task-actions">
+        <div class="filters">
+          <button>Filter</button>
+          <button>Sort</button>
+          <button>Hide</button>
+        </div>
+        <button class="new-project">+ New Project</button>
+      </div>
+
+      <!-- To-Do Section -->
+      <section class="task-section">
+        <h3>To-Do</h3>
+        <div class="task-item">
+          <div class="task-details">
+            <p class="task-title">Schedule Me an Appointment With My Endocrinologist</p>
+            <p class="task-category">Appointment</p>
+          </div>
+          <div class="task-meta">
+            <span>👥 12</span>
+            <span>📄 21</span>
+            <span class="status in-review">In Review</span>
+            <span class="priority high">High</span>
+            <span>⏳ 15 Days left</span>
+            <span>0%</span>
+          </div>
+        </div>
+        <div class="task-item">
+          <div class="task-details">
+            <p class="task-title">Track Medicine Delivery</p>
+            <p class="task-category">Tracking</p>
+          </div>
+          <div class="task-meta">
+            <span>👥 4</span>
+            <span>📄 32</span>
+            <span class="status drafts">Drafts</span>
+            <span class="priority medium">Medium</span>
+            <span>⏳ 12 Days left</span>
+            <span>0%</span>
+          </div>
+        </div>
+        <button class="add-project">+ Add New Project</button>
+      </section>
+
+      <!-- Active Projects Section -->
+      <section class="task-section">
+        <h3>Active Projects</h3>
+        <div class="task-item">
+          <div class="task-details">
+            <p class="task-title">Plan an Event</p>
+            <p class="task-category">Planning</p>
+          </div>
+          <div class="task-meta">
+            <span>👥 11</span>
+            <span>📄 8</span>
+            <span class="status in-progress">In Progress</span>
+            <span class="priority mid">Mid</span>
+            <span>⏳ 32 Days left</span>
+            <span>26%</span>
+          </div>
+        </div>
+        <div class="task-item">
+          <div class="task-details">
+            <p class="task-title">Return a Package</p>
+            <p class="task-category">Delivery</p>
+          </div>
+          <div class="task-meta">
+            <span>👥 7</span>
+            <span>📄 12</span>
+            <span class="status in-progress">In Progress</span>
+            <span class="priority medium">Medium</span>
+            <span>⏳ 4 Days left</span>
+            <span>74%</span>
+          </div>
+        </div>
+        <div class="task-item">
+          <div class="task-details">
+            <p class="task-title">Get a Passport</p>
+            <p class="task-category">Personal Help</p>
+          </div>
+          <div class="task-meta">
+            <span>👥 4</span>
+            <span>📄 16</span>
+            <span class="status input-needed">Input Needed</span>
+            <span class="priority low">Low</span>
+            <span>⏳ 22 Days left</span>
+            <span>38%</span>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
